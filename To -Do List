@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background: lightblue;
+        }
+        .container {
+            width: 100%;
+            position: absolute;
+            top: 5%;
+        }
+        .i-text{
+            height: 30px;
+            width:100%;
+            font-size: 20px;
+        }
+        .btn-add{
+            height: 35px;
+            width: 80px;
+            background: green;
+            border-radius: 30px;
+            color: white;
+            margin-left: 5px;
+        }
+        .sub-container {
+            display: flex;
+            margin: auto;
+            width: 60%;
+            border: 2px solid black;
+            padding: 5px;
+            background: lightpink;
+        }
+        .list {
+            list-style-type: none;
+            margin: 0;
+            padding: 5px;
+            font-size: 20px;
+            width: 100%;
+        }
+        .items {
+            position : relative;
+            display: flex;
+            margin: auto;
+            margin-top: 7px;
+            width: 60%;
+            border: 2px solid black;
+            padding: 5px;
+            background: lightpink;
+            text-align: start;
+        }
+        .clear-fix{
+            border: 2px solid black;
+            padding: 8px;
+            border-radius: 5px;
+            margin: auto;
+            margin-top: 9px;
+            width: 100%;
+            text-align: justify;
+        }
+        .clear-fix:hover{
+            box-shadow: 2px 2px 5px;
+        }
+        .complete-Task{
+            border-color: green;
+            text-decoration: line-through;
+            color: red;
+            box-shadow: 2px 2px 2px green;
+        }
+        .todo{
+            display: flex;
+            justify-content:center;
+            font-size:50px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="todo">To-Do List</div>
+        <div class="sub-container">
+            <input id="input" type="text" class="i-text" placeholder="Enter text here">
+            <button id="btn" class="btn-add">Add</button>
+        </div>
+        <div class="items">
+            <div class="list" id="taskContainer"></div>
+        </div>
+    </div>
+    <script> //------------------------------------------------------------------------//
+        
+        const inputText = document.getElementById("input");
+        const addBtn = document.getElementById("btn");
+        
+        const taskArr = [];
+        // Assigining values
+
+        addBtn.addEventListener("click",addTask);
+        inputText.addEventListener("keyup",handleEnter);
+
+
+        // functions
+
+        function handleEnter(value) {
+            if (value.keyCode === 13){
+                addTask();
+            }
+        }
+
+        function addTask() {
+            const userInput = inputText.value;
+            
+            const inputLength = userInput.length;
+            let count = 0;
+            
+            for (let i = 0; i < inputLength; i++) {     // checking for spaces
+                if (userInput[i] === " "){
+                    count += 1;
+                }
+            }
+
+            if (count === inputLength) {
+                return;
+            }
+
+            let taskObj = {};
+            taskObj.value = userInput;
+            taskObj.iscompleted = false;
+            
+            taskArr.push(taskObj);
+
+            setTask();
+            createTask(userInput , false);
+        }
+        
+        function createTask(userInput , iscompleted){
+            const newElement = document.createElement("div");
+            newElement.innerText = userInput;
+            
+            if (iscompleted){
+                newElement.setAttribute("class" , "clear-fix complete-Task");
+            } else {
+                newElement.setAttribute("class" , "clear-fix");
+            }
+            newElement.addEventListener("click",handleComplete)
+            newElement.addEventListener("dblclick",handleRemove);
+
+            const task = document.getElementById("taskContainer");
+            task.append(newElement);
+        }
+        
+        function setTask(){
+            localStorage.setItem("taskValue",JSON.stringify(taskArr));
+        }
+        
+        function handleComplete (){
+            //toggle
+            this.classList.toggle("complete-Task");
+            const taskValue = this.innerText;
+
+            //geting value from localstorage
+            for (let i = 0; i < taskArr.length ; i++){
+                const taskObj = taskArr[i];
+                
+                if (taskObj.value === taskValue) {
+                    taskObj.iscompleted = !taskObj.iscompleted;
+                }
+            }
+
+            setTask();
+        }
+        
+        function handleRemove() {
+            const taskValue = this.innerText;
+            
+            for (let i = 0; i < taskArr.length; i++){
+                if(taskArr[i].value === taskValue) taskArr.splice(i, 1);
+            }
+            setTask();
+            this.remove();
+        }
+
+        function getTask(){
+            let tasks = localStorage.getItem("taskValue");
+            if (!tasks) {return;}
+            
+            tasks = JSON.parse(tasks);
+
+            for(index in tasks){
+                createTask(tasks[index].value , tasks[index].iscompleted);
+                taskArr.push(tasks[index]);
+            }
+
+        }
+        
+        getTask();
+    </script>
+</body>
+</html>

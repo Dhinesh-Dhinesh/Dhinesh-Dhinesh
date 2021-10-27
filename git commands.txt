@@ -1,0 +1,43 @@
+FOR BASICS:
+
+git status
+
+FOR CLONE A SPECIFIC BRANCH
+
+[cmd] => git clone <url>  --branch <branch>
+
+[EG] => git clone https://github.com/Dhinesh-Dhinesh/exa  --branch master
+------------------------------------------
+FOR REMOTE URL FOR REPOSOTORY :
+
+[check remote] => git remote -v
+
+git remote remove [name of the remote]
+------------------------------------------
+FOR ADD A DEFAULT(ORGIN) REPOSOTORY URL IN A PROJECT :
+
+[to view orgin] => git remote show origin
+
+[to add orgin] => git remote add origin <url>                 //Important
+
+[to set default branch to master] => git push --set-upstream origin master
+
+[remote url] => git remote [name] <url>
+------------------------------------------
+FOR START A NEW REPOSITORY :
+
+git init
+------------------------------------------
+FOR ADD A NEW FILE:
+
+git add .  \[__for add all the files in repository]
+
+git commit -m "filename"  \[for add files in git hub]
+-------------------------------------------
+FOR HARD RESET OR RESET ALL CHANGED SILES:
+
+git reset --hard
+-------------------------------------------
+FOR RESET A SINGLE FILE :
+
+git checkout HEAD -- filename.js

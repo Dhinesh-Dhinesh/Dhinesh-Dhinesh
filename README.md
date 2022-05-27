@@ -4,7 +4,7 @@
 
 <h2>🙋‍♂️ About Me</h2>
 
-- 🌱 I’m currently learning **Chart.js**
+- 🌱 I’m currently learning <a href="https://www.chartjs.org/" >**Chart.js**</a>
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
@@ -53,6 +53,7 @@
 <p align="center" dir="auto">
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dhinesh-dhinesh&count_private=true&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0" alt="dhinesh-dhinesh" style="max-width:100%"/>
 </p>
+
 
 <h2>📊 My Github Stats</h2>
 <br/>

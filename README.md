@@ -4,7 +4,7 @@
 
 <h2>🙋‍♂️ About Me</h2>
 
-- 🌱 I’m currently learning <a href="https://www.chartjs.org/" >**Chart.js**</a>
+- 🌱 I’m currently learning <a href="https://www.chartjs.org/" target="_blank" >**Chart.js**</a>
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 

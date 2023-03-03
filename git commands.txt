@@ -41,3 +41,12 @@ git reset --hard
 FOR RESET A SINGLE FILE :
 
 git checkout HEAD -- filename.js
+
+
+##Branch
+
+View branch   :  git branch
+Create branch :  git branch -c branch-name     //branch name without quotes
+Switch branch :  git checkout branch-name      //branch name without quotes
+
+//we need to stage the commit to view changes

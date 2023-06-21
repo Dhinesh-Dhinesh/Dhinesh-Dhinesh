@@ -67,4 +67,4 @@
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=dhinesh-dhinesh&show_icons=true&locale=en&layout=compact&count_private=true&theme=react&hide_border=true&bg_color=0D1117" alt="dhinesh-dhinesh" />
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dhinesh-dhinesh&show_icons=true&locale=en&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" alt="dhinesh-dhinesh" />
 
-[![Dhinesh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=dhinesh-dhinesh&theme=github-compact)](https://github.com/dhinesh-dhinesh/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dhinesh-dhinesh&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)

@@ -1,8 +1,7 @@
-<a href="#">
-    <p align="center" dir="auto">
-    <img align="center" src="https://camo.githubusercontent.com/c1dcb74cc1c1835b1d716f5051499a2814c683c806b15f04b0eba492863703e9/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966" height="475px" width ="740px" alt="img"/>
-    </p>
-</a>
+<p align="center" dir="auto">
+<img src="https://user-images.githubusercontent.com/74038190/212750155-3ceddfbd-19d3-40a3-87af-8d329c8323c4.gif" width="500">
+</p>
+
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px">, I'm Dhinesh</h1>
 <h3 align="center">A passionate Full Stack Developer from India</h3>
 

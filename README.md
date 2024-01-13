@@ -15,6 +15,7 @@
 
 - 📫 How to reach me **dhinesh8534@gmail.com**
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=dhinesh-dhinesh&label=Profile%20views&color=0e75b6&style=flat" alt="dhinesh-dhinesh" /> </p>
 
 <h2 align="left">🚀 Languages and Tools:</h2>
 <!--  -->

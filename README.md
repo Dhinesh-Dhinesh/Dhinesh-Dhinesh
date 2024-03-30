@@ -5,18 +5,6 @@
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px">, I'm Dhinesh</h1>
 <h3 align="center">A passionate Full Stack Developer from India</h3>
 
-<h2>🙋‍♂️ About Me</h2>
-
-- 🌱 I’m currently learning <a href="https://www.chartjs.org/" target="_blank" >**Chart.js**</a>
-
-- 👯 I’m looking to collaborate on **OpenSource Projects**
-
-- 💬 Ask me about **React,Nodejs,Mongodb**
-
-- 📫 How to reach me **dhinesh8534@gmail.com**
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dhinesh-dhinesh&label=Profile%20views&color=0e75b6&style=flat" alt="dhinesh-dhinesh" /> </p>
-
 <h2 align="left">🚀 Languages and Tools:</h2>
 <!--  -->
 <br/>

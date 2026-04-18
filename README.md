@@ -24,23 +24,20 @@
 ## About Me
 
 - Full Stack Developer (MERN + Firebase)
-- Building **Waylo** – Transport operations platform (B2B)
+- Building Waylo
 - Focused on scalable systems & real-world problem solving  
-- I build products, not just projects
+- I build products, not just projects  
 
 ---
 
-## Waylo
+## Featured Project
 
-<p>
-<a href="https://waylo.one" target="_blank">
-  <img src="https://img.shields.io/badge/Visit%20Waylo-000?style=for-the-badge&logo=google-chrome&logoColor=white" />
-</a>
-</p>
+### <a href="https://waylo.one?utm_source=github&utm_medium=profile&utm_campaign=readme" target="_blank">Waylo</a>
 
 - B2B transport operations platform for organizations  
 - Designed for managing large-scale vehicle movement & operations  
-- Focused on real-time visibility, coordination & efficiency
+- Real-time visibility, coordination & efficiency  
+- Used by organizations to manage transport operations  
 
 ---
 
@@ -95,7 +92,7 @@
 ## Current Focus
 
 - Scaling backend systems (Node + Firebase)
-- Real-time transport systems (Waylo)
+- Real-time transport systems
 - Infrastructure & performance optimization
 
 ---

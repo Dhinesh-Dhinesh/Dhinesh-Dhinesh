@@ -45,17 +45,37 @@
 
 ### Core
 <p>
-<a href="#"><img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,express,mongodb,firebase" /></a>
+<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,express,mongodb,firebase" />
 </p>
 
-### Tools & Platforms
+### Frontend
 <p>
-<a href="#"><img src="https://skillicons.dev/icons?i=docker,aws,gcp,git,linux,postman,figma" /></a>
+<img src="https://skillicons.dev/icons?i=html,css,tailwind,redux" />
 </p>
 
-### Also Worked With
+### Backend
 <p>
-<a href="#"><img src="https://skillicons.dev/icons?i=python,flask,graphql,redux,tailwind,mysql,sqlite,redis" /></a>
+<img src="https://skillicons.dev/icons?i=nodejs,express,python,flask,graphql" />
+</p>
+
+### Cloud & DevOps
+<p>
+<img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,heroku" />
+</p>
+
+### Databases & Caching
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,redis" />
+</p>
+
+### Tools & Workflow
+<p>
+<img src="https://skillicons.dev/icons?i=git,linux,postman,figma,jest,joi" />
+</p>
+
+### Mobile / Cross-platform
+<p>
+<img src="https://skillicons.dev/icons?i=react,flutter,dart" />
 </p>
 
 ---
